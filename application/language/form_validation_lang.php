@@ -1,0 +1,54 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+// BitWasp callback errors
+$lang['block_access_to_parent_category'] = 'Родительские категории выделены жирным шрифтом и не могут быть выбраны. Пожалуйста выберите субкатегорию для элемента.';
+$lang['check_admin_roles'] = 'Необходимо указать подходящую роль пользователя.';
+$lang['check_autorun_interval'] = 'Интервал должен быть 0 (если выключен) или установлено значение интервала.';
+$lang['check_bitcoin_account_exists'] = 'Необходимо выбрать учётную запись своего кошелька.';
+$lang['check_bitcoin_address'] = "Необходимо указать base58 адрес.";
+$lang['check_bitcoin_balance_method'] = 'Пожалуйста выберите подходящий метод сохранения баланса';
+$lang['check_bitcoin_index'] = 'Необходимо выбрать подходящий индекс Bitcoin источника';
+$lang['check_buyer_prepared_comments'] = 'Неверный коментарий';
+$lang['check_bool'] = 'Необходимо выбрать Активно или Неактивно';
+$lang['check_can_delete_category'] = "Пожалуйста выберите подходящую категорию";
+$lang['check_captcha'] = "Введите правильный captcha текст. ";
+$lang['check_captcha_length'] = 'Длинна captcha не должна превышать 12 символов.';
+$lang['check_category_exists'] = "Пожалуйста выберите подходящую категорию";
+$lang['check_comments_source'] = 'Пожалуйста выделите подготовленные комментарии или комментарии в свободном формате';
+$lang['check_currency_exists'] = "Необходимо ввести подходящую валюту.";
+$lang['check_custom_location_exists'] = 'Необходимо ввести правильное месторасположение.';
+$lang['check_custom_parent_location_exists'] = 'Необходимо выбрать подходящее расположение родительского объекта.';
+$lang['check_delete_on_read'] = 'Необходимо установить, удалять при прочтении или не удалять.';
+$lang['check_has_sufficient_balance'] = 'У Вас недостаточно средств для осуществления транзакции.';	
+$lang['check_is_positive'] = '%s число должно быть положительным.';
+$lang['check_item_prepared_comments'] = 'Выберите подходящий комментарий из списка.';
+$lang['check_numeric_rating'] = 'Значение %s должно быть от 1 до 5';
+$lang['check_pin_required'] = "Необходимо ввести ПИН.";
+$lang['check_pgp_is_required'] = "Получатель заблокировал получение сообщений, если они не зашифрованы PGP.";
+$lang['check_price_positive'] = 'Для указания стоимости необходимо ввести положительный число.';
+$lang['check_review_length'] = 'Выберите краткий или длинный обзор.';
+$lang['check_role'] = "Поле %s должно заполняться покупателем или продавцом.";
+$lang['check_session_timeout'] = 'Время сессии должно быть не менее 5 минут.';
+$lang['check_shipping_location'] = 'Необходимо указать правильное место доставки.';
+$lang['check_valid_currency'] = 'Необходимо выбрать подходящую валюту.';
+$lang['check_valid_location_list_source'] = 'Список может быть "По Умолчанию" или "Пользовательский"';
+$lang['check_valid_parent_location'] = 'Необходимо указать правильное родительское расположение.';
+$lang['check_vendor_prepared_comments'] = 'Выберите подходящий комментарий из списка.';
+$lang['check_parentID_exists'] = "Пожалуйста выберите родительскую категорию";
+$lang['check_proxy_type'] = 'HTTP или SOCKS5 прокси должно быть отключено.';
+$lang['check_proxy_url'] = 'Прокси должно быть указано в формате IP:Port.';
+$lang['check_user_exists'] = "Указанный пользователь не существует.";
+$lang['check_user_search_for'] = 'Необходимо указать подходящий тип пользователя.';
+$lang['check_user_search_with_property'] = 'Вы должны выбрать подходящую спецификацию.';
+$lang['check_user_search_list'] = 'Необходимо выбрать подходящую сортировку для списка';
+$lang['check_user_search_order_by'] = 'Необходимо выбрать подходящую сортировку для списка';
+
+// CodeIgniter callback errors
+$lang['alpha_dash'] = "Поле %s может содержать только буквы, цифры и тире (-).";
+$lang['required'] = "Необходимо ввести %s";
+$lang['is_unique'] = "Имя %s уже используется, необходимо выбрать другое.";	
+$lang['min_length'] = "Минимальная длинна %s %s";
+$lang['max_length'] = "Минимальная длинна %s %s";
+$lang['matches'] = "%s должно соответствовать %s";
+$lang['integer'] = "%s должно быть целым числом.";
+$lang['decimal'] = "%s должно быть десятичным числом";
